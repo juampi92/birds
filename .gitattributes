@@ -1,0 +1,3 @@
+# Media is deliberately stored as binary content; never attempt text diffs or merges.
+*.webp binary
+*.ogg binary

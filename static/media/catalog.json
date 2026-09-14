@@ -1,0 +1,1048 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-09",
+  "birds": [
+    {
+      "id": "great-tit",
+      "name": "Great tit",
+      "scientificName": "Parus major",
+      "images": [
+        {
+          "id": "great-tit-image",
+          "url": "/media/photos/great-tit-1.webp",
+          "title": "Great tit - Parus major.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Great_tit_-_Parus_major.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_tit_-_Parus_major.jpg",
+          "creator": "Francis Franklin",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Baresi_franco",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "dimensions": "3793x2966",
+          "identityNote": "Description identifies a Great tit (Parus major), photographed in Lancashire, UK."
+        },
+        {
+          "id": "great-tit-birds-of-sweden",
+          "url": "/media/photos/great-tit-2.webp",
+          "title": "Birds of Sweden 2016 37.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Birds_of_Sweden_2016_37.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Birds%20of%20Sweden%202016%2037.jpg",
+          "creator": "Bengt Nyman",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Bengt_Nyman",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "dimensions": "1677x1677",
+          "identityNote": "Source description identifies a Great Tit (Parus major) near Vaxholm, Sweden."
+        },
+        {
+          "id": "great-tit-luc-viatour",
+          "url": "/media/photos/great-tit-3.webp",
+          "title": "Parus major Luc Viatour.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Parus_major_Luc_Viatour.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parus%20major%20Luc%20Viatour.jpg",
+          "creator": "Luc Viatour from Bruxelles, Belgique",
+          "creatorUrl": "https://www.flickr.com/people/12346105@N04",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "dimensions": "2226x1483",
+          "identityNote": "Source title and description identify a Great Tit (Parus major)."
+        }
+      ],
+      "sounds": [
+        {
+          "id": "great-tit-xc227393",
+          "kind": "song",
+          "title": "Parus major - Great Tit XC227393.mp3",
+          "url": "/media/sounds/great-tit-xc227393.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Parus_major_-_Great_Tit_XC227393.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParus_major_-_Great_Tit_XC227393.mp3",
+          "recordist": "Oystein",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Parus major recording from Wikimedia Commons."
+        },
+        {
+          "id": "great-tit-xc172577",
+          "kind": "song",
+          "title": "Parus major - Great Tit XC172577.mp3",
+          "url": "/media/sounds/great-tit-xc172577.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Parus_major_-_Great_Tit_XC172577.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParus_major_-_Great_Tit_XC172577.mp3",
+          "recordist": "Sander Pieterse",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Parus major recording from Wikimedia Commons."
+        },
+        {
+          "id": "great-tit-xc47356",
+          "kind": "song",
+          "title": "Parus major - Great Tit XC47356.mp3",
+          "url": "/media/sounds/great-tit-xc47356.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Parus_major_-_Great_Tit_XC47356.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParus_major_-_Great_Tit_XC47356.mp3",
+          "recordist": "Sander Pieterse",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Parus major recording from Wikimedia Commons."
+        },
+        {
+          "id": "great-tit-xc1167229",
+          "kind": "call",
+          "title": "XC1167229 - Great Tit - Parus major.wav",
+          "url": "/media/sounds/great-tit-xc1167229.ogg",
+          "downloadUrl": "https://xeno-canto.org/1167229/download",
+          "sourceUrl": "https://xeno-canto.org/1167229",
+          "recordist": "Stanislas Wroza",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call, song and melodious call recording of Great Tit (Parus major) from Xeno-canto."
+        },
+        {
+          "id": "great-tit-xc1167218",
+          "kind": "song",
+          "title": "XC1167218 - Great Tit - Parus major.wav",
+          "url": "/media/sounds/great-tit-xc1167218.ogg",
+          "downloadUrl": "https://xeno-canto.org/1167218/download",
+          "sourceUrl": "https://xeno-canto.org/1167218",
+          "recordist": "Stanislas Wroza",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Song recording of Great Tit (Parus major) from Xeno-canto."
+        },
+        {
+          "id": "great-tit-xc1137711",
+          "kind": "song",
+          "title": "XC1137711 - Great Tit - Parus major.wav",
+          "url": "/media/sounds/great-tit-xc1137711.ogg",
+          "downloadUrl": "https://xeno-canto.org/1137711/download",
+          "sourceUrl": "https://xeno-canto.org/1137711",
+          "recordist": "Dimitri",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Song recording of Great Tit (Parus major) from Xeno-canto."
+        }
+      ]
+    },
+    {
+      "id": "blue-tit",
+      "name": "Blue tit",
+      "scientificName": "Cyanistes caeruleus",
+      "images": [
+        {
+          "id": "blue-tit-image",
+          "url": "/media/photos/blue-tit-1.webp",
+          "title": "Cyanistes caeruleus 106650959.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Cyanistes_caeruleus_106650959.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyanistes_caeruleus_106650959.jpg",
+          "creator": "Andrew Bazdyrev",
+          "creatorUrl": "https://www.inaturalist.org/users/2567886",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "dimensions": "1024x768",
+          "identityNote": "Commons metadata identifies Eurasian Blue Tit (Cyanistes caeruleus); source is an iNaturalist-reviewed image."
+        },
+        {
+          "id": "blue-tit-lancashire",
+          "url": "/media/photos/blue-tit-2.webp",
+          "title": "Eurasian blue tit Lancashire.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Eurasian_blue_tit_Lancashire.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eurasian%20blue%20tit%20Lancashire.jpg",
+          "creator": "Francis Franklin",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Baresi_franco",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "dimensions": "3472x2604",
+          "identityNote": "Source description identifies a Eurasian Blue Tit (Cyanistes caeruleus) in Lancashire, UK."
+        }
+      ],
+      "sounds": [
+        {
+          "id": "blue-tit-xc401553",
+          "kind": "song",
+          "title": "Cyanistes caeruleus - Eurasian Blue Tit XC401553.mp3",
+          "url": "/media/sounds/blue-tit-xc401553.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Cyanistes_caeruleus_-_Eurasian_Blue_Tit_XC401553.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACyanistes_caeruleus_-_Eurasian_Blue_Tit_XC401553.mp3",
+          "recordist": "Alexander Kürthy",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Cyanistes caeruleus recording from Wikimedia Commons."
+        },
+        {
+          "id": "blue-tit-xc342260",
+          "kind": "song",
+          "title": "Cyanistes caeruleus - Eurasian Blue Tit XC342260.mp3",
+          "url": "/media/sounds/blue-tit-xc342260.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Cyanistes_caeruleus_-_Eurasian_Blue_Tit_XC342260.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACyanistes_caeruleus_-_Eurasian_Blue_Tit_XC342260.mp3",
+          "recordist": "Alexander Kürthy",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Cyanistes caeruleus recording from Wikimedia Commons."
+        },
+        {
+          "id": "blue-tit-xc443810",
+          "kind": "song",
+          "title": "Cyanistes caeruleus - Eurasian Blue Tit XC443810.mp3",
+          "url": "/media/sounds/blue-tit-xc443810.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Cyanistes_caeruleus_-_Eurasian_Blue_Tit_XC443810.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACyanistes_caeruleus_-_Eurasian_Blue_Tit_XC443810.mp3",
+          "recordist": "Raoul Kima",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Cyanistes caeruleus recording from Wikimedia Commons."
+        },
+        {
+          "id": "blue-tit-xc1152302",
+          "kind": "song",
+          "title": "XC1152302 - Eurasian Blue Tit - Cyanistes caeruleus.wav",
+          "url": "/media/sounds/blue-tit-xc1152302.ogg",
+          "downloadUrl": "https://xeno-canto.org/1152302/download",
+          "sourceUrl": "https://xeno-canto.org/1152302",
+          "recordist": "Sunny Tseng",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Song recording of Eurasian Blue Tit (Cyanistes caeruleus) from Xeno-canto."
+        },
+        {
+          "id": "blue-tit-xc1152251",
+          "kind": "call",
+          "title": "XC1152251 - Eurasian Blue Tit - Cyanistes caeruleus.wav",
+          "url": "/media/sounds/blue-tit-xc1152251.ogg",
+          "downloadUrl": "https://xeno-canto.org/1152251/download",
+          "sourceUrl": "https://xeno-canto.org/1152251",
+          "recordist": "Sunny Tseng",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call and song recording of Eurasian Blue Tit (Cyanistes caeruleus) from Xeno-canto."
+        },
+        {
+          "id": "blue-tit-xc1135121",
+          "kind": "song",
+          "title": "XC1135121 - Eurasian Blue Tit - Cyanistes caeruleus.wav",
+          "url": "/media/sounds/blue-tit-xc1135121.ogg",
+          "downloadUrl": "https://xeno-canto.org/1135121/download",
+          "sourceUrl": "https://xeno-canto.org/1135121",
+          "recordist": "João Ferreira Tomás",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Song recording of Eurasian Blue Tit (Cyanistes caeruleus) from Xeno-canto."
+        },
+        {
+          "id": "blue-tit-xc1092236",
+          "kind": "song",
+          "title": "XC1092236 - Eurasian Blue Tit - Cyanistes caeruleus.mp3",
+          "url": "/media/sounds/blue-tit-xc1092236.ogg",
+          "downloadUrl": "https://xeno-canto.org/1092236/download",
+          "sourceUrl": "https://xeno-canto.org/1092236",
+          "recordist": "Olivier SWIFT, Hélène CARTAUD",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Song recording of Eurasian Blue Tit (Cyanistes caeruleus) from Xeno-canto."
+        }
+      ]
+    },
+    {
+      "id": "house-sparrow",
+      "name": "Sparrow",
+      "scientificName": "Passer domesticus",
+      "images": [
+        {
+          "id": "house-sparrow-image",
+          "url": "/media/photos/house-sparrow-1.webp",
+          "title": "Passer domesticus detailed.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Passer_domesticus_detailed.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_detailed.jpg",
+          "creator": "Thermos",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Thermos",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "dimensions": "3603x2404",
+          "identityNote": "Description identifies a male House Sparrow (Passer domesticus), photographed in Helsinki."
+        },
+        {
+          "id": "house-sparrow-male-prospect-park",
+          "url": "/media/photos/house-sparrow-2.webp",
+          "title": "House sparrow male in Prospect Park (53532).jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/House_sparrow_male_in_Prospect_Park_%2853532%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:House%20sparrow%20male%20in%20Prospect%20Park%20(53532).jpg",
+          "creator": "Rhododendrites",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Rhododendrites",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "dimensions": "4400x3422",
+          "identityNote": "Source description identifies a male House Sparrow in Prospect Park."
+        },
+        {
+          "id": "house-sparrow-female-england",
+          "url": "/media/photos/house-sparrow-3.webp",
+          "title": "House Sparrow, England - May 09.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/House_Sparrow%2C_England_-_May_09.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:House%20Sparrow,%20England%20-%20May%2009.jpg",
+          "creator": "Diliff",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Diliff",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "dimensions": "2285x1921",
+          "identityNote": "Source description identifies a female House Sparrow (Passer domesticus) at Leeds Castle, Kent, England."
+        }
+      ],
+      "sounds": [
+        {
+          "id": "house-sparrow-xc108385",
+          "kind": "song",
+          "title": "Passer domesticus - House Sparrow XC108385.mp3",
+          "url": "/media/sounds/house-sparrow-xc108385.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Passer_domesticus_-_House_Sparrow_XC108385.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APasser_domesticus_-_House_Sparrow_XC108385.mp3",
+          "recordist": "Alexander Kurthy",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Passer domesticus recording from Wikimedia Commons."
+        },
+        {
+          "id": "house-sparrow-xc86749",
+          "kind": "song",
+          "title": "Passer domesticus - House Sparrow XC86749.mp3",
+          "url": "/media/sounds/house-sparrow-xc86749.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Passer_domesticus_-_House_Sparrow_XC86749.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APasser_domesticus_-_House_Sparrow_XC86749.mp3",
+          "recordist": "Jonathon Jongsma",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "description": "Passer domesticus recording from Wikimedia Commons."
+        },
+        {
+          "id": "house-sparrow-xc174920",
+          "kind": "song",
+          "title": "Passer domesticus - House Sparrow XC174920.mp3",
+          "url": "/media/sounds/house-sparrow-xc174920.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Passer_domesticus_-_House_Sparrow_XC174920.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APasser_domesticus_-_House_Sparrow_XC174920.mp3",
+          "recordist": "Jonathon Jongsma",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Passer domesticus recording from Wikimedia Commons."
+        },
+        {
+          "id": "house-sparrow-xc1175751",
+          "kind": "call",
+          "title": "XC1175751 - House Sparrow - Passer domesticus.mp3",
+          "url": "/media/sounds/house-sparrow-xc1175751.ogg",
+          "downloadUrl": "https://xeno-canto.org/1175751/download",
+          "sourceUrl": "https://xeno-canto.org/1175751",
+          "recordist": "Uku Paal",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call recording of House Sparrow (Passer domesticus) from Xeno-canto."
+        },
+        {
+          "id": "house-sparrow-xc1151083",
+          "kind": "call",
+          "title": "XC1151083 - House Sparrow - Passer domesticus.wav",
+          "url": "/media/sounds/house-sparrow-xc1151083.ogg",
+          "downloadUrl": "https://xeno-canto.org/1151083/download",
+          "sourceUrl": "https://xeno-canto.org/1151083",
+          "recordist": "João Ferreira Tomás",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call, song and excited male call recording of House Sparrow (Passer domesticus) from Xeno-canto."
+        }
+      ]
+    },
+    {
+      "id": "robin",
+      "name": "Robin",
+      "scientificName": "Erithacus rubecula",
+      "images": [
+        {
+          "id": "robin-image",
+          "url": "/media/photos/robin-1.webp",
+          "title": "Erithacus rubecula 173708832.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Erithacus_rubecula_173708832.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erithacus_rubecula_173708832.jpg",
+          "creator": "Michel Langeveld",
+          "creatorUrl": "https://www.inaturalist.org/users/3599717",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "dimensions": "2048x1370",
+          "identityNote": "Description identifies European Robin (Erithacus rubecula); photograph was taken in Noordwijkerhout, Netherlands."
+        },
+        {
+          "id": "robin-cocked-head",
+          "url": "/media/photos/robin-2.webp",
+          "title": "Erithacus rubecula with cocked head.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Erithacus_rubecula_with_cocked_head.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erithacus%20rubecula%20with%20cocked%20head.jpg",
+          "creator": "Francis C. Franklin",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Baresi_franco",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "dimensions": "2574x2059",
+          "identityNote": "Source description identifies a European Robin (Erithacus rubecula) near Shevington Moor, Lancashire, England."
+        },
+        {
+          "id": "robin-feeder",
+          "url": "/media/photos/robin-3.webp",
+          "title": "Rouge-gorge à une mangeoire.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Rouge-gorge_%C3%A0_une_mangeoire.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rouge-gorge%20%C3%A0%20une%20mangeoire.jpg",
+          "creator": "Bontempi1953",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Bontempi1953",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "dimensions": "2957x2957",
+          "identityNote": "Source description identifies a European Robin at a feeder."
+        }
+      ],
+      "sounds": [
+        {
+          "id": "robin-xc103717",
+          "kind": "song",
+          "title": "Erithacus rubecula - European Robin XC103717.mp3",
+          "url": "/media/sounds/robin-xc103717.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Erithacus_rubecula_-_European_Robin_XC103717.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AErithacus_rubecula_-_European_Robin_XC103717.mp3",
+          "recordist": "Alexander Kurthy",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Erithacus rubecula recording from Wikimedia Commons."
+        },
+        {
+          "id": "robin-xc25603",
+          "kind": "song",
+          "title": "Erithacus rubecula - European Robin XC25603.mp3",
+          "url": "/media/sounds/robin-xc25603.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Erithacus_rubecula_-_European_Robin_XC25603.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AErithacus_rubecula_-_European_Robin_XC25603.mp3",
+          "recordist": "Sander Pieterse",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Erithacus rubecula recording from Wikimedia Commons."
+        },
+        {
+          "id": "robin-xc249306",
+          "kind": "song",
+          "title": "Erithacus rubecula - European Robin XC249306.mp3",
+          "url": "/media/sounds/robin-xc249306.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Erithacus_rubecula_-_European_Robin_XC249306.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AErithacus_rubecula_-_European_Robin_XC249306.mp3",
+          "recordist": "Zdeněk Vermouzek",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Erithacus rubecula recording from Wikimedia Commons."
+        },
+        {
+          "id": "robin-xc1165259",
+          "kind": "call",
+          "title": "XC1165259 - European Robin - Erithacus rubecula.mp3",
+          "url": "/media/sounds/robin-xc1165259.ogg",
+          "downloadUrl": "https://xeno-canto.org/1165259/download",
+          "sourceUrl": "https://xeno-canto.org/1165259",
+          "recordist": "Lars Edenius",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call recording of European Robin (Erithacus rubecula) from Xeno-canto."
+        },
+        {
+          "id": "robin-xc1150191",
+          "kind": "song",
+          "title": "XC1150191 - European Robin - Erithacus rubecula.mp3",
+          "url": "/media/sounds/robin-xc1150191.ogg",
+          "downloadUrl": "https://xeno-canto.org/1150191/download",
+          "sourceUrl": "https://xeno-canto.org/1150191",
+          "recordist": "Louis-Marie Gourmelon",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Song recording of European Robin (Erithacus rubecula) from Xeno-canto."
+        }
+      ]
+    },
+    {
+      "id": "blackbird",
+      "name": "Blackbird",
+      "scientificName": "Turdus merula",
+      "images": [
+        {
+          "id": "blackbird-gran-canaria",
+          "url": "/media/photos/blackbird-1.webp",
+          "title": "Turdus merula -Gran Canaria, Canary Islands, Spain-8 (2).jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Turdus_merula_-Gran_Canaria%2C_Canary_Islands%2C_Spain-8_%282%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turdus%20merula%20-Gran%20Canaria,%20Canary%20Islands,%20Spain-8%20(2).jpg",
+          "creator": "Juan Emilio from Las Palmas de Gran Canaria, España",
+          "creatorUrl": "https://www.flickr.com/photos/22009023@N03",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "dimensions": "5326x3995",
+          "identityNote": "Source description identifies Turdus merula cabrerae, a Common Blackbird in Gran Canaria, Canary Islands, Spain."
+        },
+        {
+          "id": "blackbird-inaturalist-19612942",
+          "url": "/media/photos/blackbird-2.webp",
+          "title": "iNaturalist observation 19612942 photo 30197128",
+          "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30197128/original.jpg",
+          "sourceUrl": "https://www.inaturalist.org/observations/19612942",
+          "creator": "Karim Haddad",
+          "creatorUrl": "https://www.inaturalist.org/people/karimhaddad",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "dimensions": "986x653",
+          "identityNote": "iNaturalist identifies Turdus merula (Eurasian Blackbird); the observation description says “mâle” (male)."
+        }
+      ],
+      "sounds": [
+        {
+          "id": "blackbird-xc86887",
+          "kind": "song",
+          "title": "Turdus merula - Common Blackbird XC86887.mp3",
+          "url": "/media/sounds/blackbird-xc86887.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Turdus_merula_-_Common_Blackbird_XC86887.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATurdus_merula_-_Common_Blackbird_XC86887.mp3",
+          "recordist": "Alexander Kurthy",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Turdus merula recording from Wikimedia Commons."
+        },
+        {
+          "id": "blackbird-xc26605",
+          "kind": "song",
+          "title": "Turdus merula - Common Blackbird XC26605.mp3",
+          "url": "/media/sounds/blackbird-xc26605.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Turdus_merula_-_Common_Blackbird_XC26605.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATurdus_merula_-_Common_Blackbird_XC26605.mp3",
+          "recordist": "Sander Pieterse",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Turdus merula recording from Wikimedia Commons."
+        }
+      ]
+    },
+    {
+      "id": "wood-pigeon",
+      "name": "Pigeon",
+      "scientificName": "Columba palumbus",
+      "images": [
+        {
+          "id": "wood-pigeon-image",
+          "url": "/media/photos/wood-pigeon-1.webp",
+          "title": "Common Wood Pigeon - Columba palumbus.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Common_Wood_Pigeon_-_Columba_palumbus.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Common_Wood_Pigeon_-_Columba_palumbus.jpg",
+          "creator": "Georgi.petrov66",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Georgi.petrov66",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "dimensions": "2718x1829",
+          "identityNote": "Description identifies Common Wood Pigeon (Columba palumbus)."
+        },
+        {
+          "id": "wood-pigeon-cambridge",
+          "url": "/media/photos/wood-pigeon-2.webp",
+          "title": "Common wood pigeon.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Common_wood_pigeon.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Common%20wood%20pigeon.jpg",
+          "creator": "Astrochamp",
+          "creatorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Astrochamp&action=edit&redlink=1",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "dimensions": "960x720",
+          "identityNote": "Source description identifies a Common Wood Pigeon perched on a fence in Cambridge, England."
+        }
+      ],
+      "sounds": []
+    },
+    {
+      "id": "collared-dove",
+      "name": "Dove",
+      "scientificName": "Streptopelia decaocto",
+      "images": [
+        {
+          "id": "collared-dove-image",
+          "url": "/media/photos/collared-dove-1.webp",
+          "title": "Streptopelia decaocto standing.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Streptopelia_decaocto_standing.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Streptopelia_decaocto_standing.jpg",
+          "creator": "Dimitri \"Diti\" Torterat",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Diti",
+          "license": "CC BY 2.0 France",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/deed.en",
+          "dimensions": "3008x2000",
+          "identityNote": "Description identifies Eurasian Collared Dove (Streptopelia decaocto), standing on a branch."
+        },
+        {
+          "id": "collared-dove-plovdiv",
+          "url": "/media/photos/collared-dove-2.webp",
+          "title": "2022-04-06 Streptopelia decaocto, Plovdiv, Bulgaria 1.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/2022-04-06_Streptopelia_decaocto%2C_Plovdiv%2C_Bulgaria_1.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022-04-06%20Streptopelia%20decaocto,%20Plovdiv,%20Bulgaria%201.jpg",
+          "creator": "stevem4560",
+          "creatorUrl": "https://www.inaturalist.org/people/stevem4560",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "dimensions": "1600x1200",
+          "identityNote": "Source description identifies a Eurasian Collared Dove (Streptopelia decaocto) near Plovdiv, Bulgaria."
+        }
+      ],
+      "sounds": []
+    },
+    {
+      "id": "great-spotted-woodpecker",
+      "name": "Woodpecker",
+      "scientificName": "Dendrocopos major",
+      "images": [
+        {
+          "id": "great-spotted-woodpecker-image",
+          "url": "/media/photos/great-spotted-woodpecker-1.webp",
+          "title": "Dendrocopos major, female.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Dendrocopos_major%2C_female.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dendrocopos_major,_female.jpg",
+          "creator": "Miraceti",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Miraceti",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "dimensions": "3872x2592",
+          "identityNote": "Description identifies female Dendrocopos major (Great spotted woodpecker)."
+        }
+      ],
+      "sounds": [
+        {
+          "id": "great-spotted-woodpecker-bl-w1cdr0001405",
+          "kind": "drumming",
+          "title": "Great Spotted Woodpecker (Picoides major) (W1CDR0001405 BD15).ogg",
+          "url": "/media/sounds/great-spotted-woodpecker-bl-w1cdr0001405.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Great_Spotted_Woodpecker_%28Picoides_major%29_%28W1CDR0001405_BD15%29.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Spotted_Woodpecker_(Picoides_major)_(W1CDR0001405_BD15).ogg",
+          "recordist": "Shove, Lawrence",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "description": "The drumming of a Great Spotted Woodpecker, recorded in Yarmer Wood, Devon, England."
+        }
+      ]
+    },
+    {
+      "id": "magpie",
+      "name": "Magpie",
+      "scientificName": "Pica pica",
+      "images": [
+        {
+          "id": "magpie-image",
+          "url": "/media/photos/magpie-1.webp",
+          "title": "Pica pica - 01.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Pica_pica_-_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pica_pica_-_01.jpg",
+          "creator": "Carlos Delgado",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Kadellar",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "dimensions": "3648x2432",
+          "identityNote": "Commons quality image description identifies an Eurasian magpie (Pica pica) photographed in Madrid, Spain."
+        },
+        {
+          "id": "magpie-2024",
+          "url": "/media/photos/magpie-2.webp",
+          "title": "Eurasian magpie 2024 03 03 02.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Eurasian_magpie_2024_03_03_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eurasian%20magpie%202024%2003%2003%2002.jpg",
+          "creator": "Alexis Lours",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Alexis_Lours",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "dimensions": "6960x4640",
+          "identityNote": "Source description identifies a Eurasian Magpie (Pica pica) in Gennevilliers, France."
+        },
+        {
+          "id": "magpie-2023",
+          "url": "/media/photos/magpie-3.webp",
+          "title": "Eurasian Magpie 2023-10-16 01.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Eurasian_Magpie_2023-10-16_01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eurasian%20Magpie%202023-10-16%2001.jpg",
+          "creator": "Alexis Lours",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Alexis_Lours",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "dimensions": "5453x3635",
+          "identityNote": "Source description identifies a flying Eurasian Magpie (Pica pica) in Gennevilliers, France."
+        },
+        {
+          "id": "magpie-turtuk",
+          "url": "/media/photos/magpie-4.webp",
+          "title": "Eurasian Magpie in Turtuk Village, Ladakh.JPG",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Eurasian_Magpie_in_Turtuk_Village%2C_Ladakh.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eurasian%20Magpie%20in%20Turtuk%20Village,%20Ladakh.JPG",
+          "creator": "Rajnish71",
+          "creatorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Rajnish71&action=edit&redlink=1",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "dimensions": "4608x3456",
+          "identityNote": "Source description identifies the Eurasian Magpie subspecies Pica pica bactriana in Ladakh."
+        }
+      ],
+      "sounds": [
+        {
+          "id": "magpie-bl-2015",
+          "kind": "call",
+          "title": "Eurasian Magpie (Pica pica) (W1CDR0001537 BD28).ogg",
+          "url": "/media/sounds/magpie-bl-2015.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Eurasian_Magpie_%28Pica_pica%29_%28W1CDR0001537_BD28%29.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eurasian_Magpie_(Pica_pica)_(W1CDR0001537_BD28).ogg",
+          "recordist": "Lawrence Shove / British Library",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "description": "Call recorded at Pinbury Park, Gloucestershire, England."
+        },
+        {
+          "id": "magpie-xc432921",
+          "kind": "call",
+          "title": "Pica pica - Eurasian Magpie XC432921.mp3",
+          "url": "/media/sounds/magpie-xc432921.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Pica_pica_-_Eurasian_Magpie_XC432921.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pica_pica_-_Eurasian_Magpie_XC432921.mp3",
+          "recordist": "Joost van Bruggen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "description": "Call recorded in Arnhem, Gelderland, the Netherlands."
+        },
+        {
+          "id": "magpie-xc537413",
+          "kind": "call",
+          "title": "Pica pica - Eurasian Magpie XC537413.mp3",
+          "url": "/media/sounds/magpie-xc537413.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Pica_pica_-_Eurasian_Magpie_XC537413.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pica_pica_-_Eurasian_Magpie_XC537413.mp3",
+          "recordist": "Benoît Van Hecke",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "description": "Independent Eurasian magpie recording imported from Xeno-canto."
+        },
+        {
+          "id": "magpie-xc1148526",
+          "kind": "call",
+          "title": "XC1148526 - Eurasian Magpie - Pica pica.wav",
+          "url": "/media/sounds/magpie-xc1148526.ogg",
+          "downloadUrl": "https://xeno-canto.org/1148526/download",
+          "sourceUrl": "https://xeno-canto.org/1148526",
+          "recordist": "Philippe_Grange",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "description": "Call, song and subsong recorded in Vendée, France; one adult with one juvenile."
+        }
+      ]
+    },
+    {
+      "id": "carrion-crow",
+      "name": "Crow",
+      "scientificName": "Corvus corone",
+      "images": [
+        {
+          "id": "carrion-crow-image",
+          "url": "/media/photos/carrion-crow-1.webp",
+          "title": "Carrion Crow aka Corvus corone.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Carrion_Crow_aka_Corvus_corone.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carrion_Crow_aka_Corvus_corone.jpg",
+          "creator": "AnemoneProjectors",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:AnemoneProjectors",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "dimensions": "3570x2672",
+          "identityNote": "Commons description identifies a Carrion Crow (Corvus corone) photographed at Fairlands Valley Park, England."
+        },
+        {
+          "id": "carrion-crow-2022",
+          "url": "/media/photos/carrion-crow-2.webp",
+          "title": "Carrion crow 2022 04 05 05 02.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Carrion_crow_2022_04_05_05_02.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carrion%20crow%202022%2004%2005%2005%2002.jpg",
+          "creator": "Alexis Lours",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Alexis_Lours",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "dimensions": "5070x3380",
+          "identityNote": "Source description identifies a Carrion Crow (Corvus corone) in Gennevilliers, France."
+        }
+      ],
+      "sounds": [
+        {
+          "id": "crow-bl-1961",
+          "kind": "call",
+          "title": "Carrion Crow (Corvus corone) (W1CDR0001425 BD18).ogg",
+          "url": "/media/sounds/carrion-crow-bl-1961.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Carrion_Crow_%28Corvus_corone%29_%28W1CDR0001425_BD18%29.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carrion_Crow_(Corvus_corone)_(W1CDR0001425_BD18).ogg",
+          "recordist": "Lawrence Shove / British Library",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "description": "Call recorded in a garden at Culver, near Exeter, Devon, England."
+        },
+        {
+          "id": "crow-xc24828",
+          "kind": "call",
+          "title": "Corvus corone - Carrion Crow XC24828.mp3",
+          "url": "/media/sounds/carrion-crow-xc24828.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Corvus_corone_-_Carrion_Crow_XC24828.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corvus_corone_-_Carrion_Crow_XC24828.mp3",
+          "recordist": "Sander Pieterse",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "description": "Call recorded at Bosjes van Poot, The Hague, the Netherlands."
+        },
+        {
+          "id": "crow-xc147235",
+          "kind": "song",
+          "title": "Corvus corone - Carrion Crow XC147235.mp3",
+          "url": "/media/sounds/carrion-crow-xc147235.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Corvus_corone_-_Carrion_Crow_XC147235.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corvus_corone_-_Carrion_Crow_XC147235.mp3",
+          "recordist": "Harry Rutherford",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "description": "Song-like mewing call recorded in London, England."
+        },
+        {
+          "id": "crow-xc459813",
+          "kind": "call",
+          "title": "Corvus corone - Carrion Crow XC459813.mp3",
+          "url": "/media/sounds/carrion-crow-xc459813.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Corvus_corone_-_Carrion_Crow_XC459813.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corvus_corone_-_Carrion_Crow_XC459813.mp3",
+          "recordist": "Marie-Lan Taÿ Pamart",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "description": "Territorial calls recorded in Paris, France."
+        }
+      ]
+    },
+    {
+      "id": "jackdaw",
+      "name": "Jackdaw",
+      "scientificName": "Coloeus monedula",
+      "images": [
+        {
+          "id": "jackdaw-image",
+          "url": "/media/photos/jackdaw-1.webp",
+          "title": "Coloeus monedula (Antwerpen).jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Coloeus_monedula_%28Antwerpen%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coloeus_monedula_(Antwerpen).jpg",
+          "creator": "Hans Hillewaert",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Biopics",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "dimensions": "3255x2439",
+          "identityNote": "Commons quality image description identifies a Western jackdaw (Coloeus monedula) photographed in Antwerp, Belgium."
+        },
+        {
+          "id": "jackdaw-nordic",
+          "url": "/media/photos/jackdaw-2.webp",
+          "title": "Nordic jackdaw (52563242448).jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Nordic_jackdaw_%2852563242448%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nordic%20jackdaw%20(52563242448).jpg",
+          "creator": "hedera.baltica from Wrocław, Poland",
+          "creatorUrl": "https://www.flickr.com/people/125741467@N05",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "dimensions": "2800x2100",
+          "identityNote": "Source description identifies a Nordic Jackdaw (Coloeus monedula monedula)."
+        },
+        {
+          "id": "jackdaw-birds-of-sweden",
+          "url": "/media/photos/jackdaw-3.webp",
+          "title": "Birds of Sweden 2016 53.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Birds_of_Sweden_2016_53.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Birds%20of%20Sweden%202016%2053.jpg",
+          "creator": "Bengt Nyman",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Bengt_Nyman",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "dimensions": "3611x2708",
+          "identityNote": "Source description identifies a Western Jackdaw (Corvus monedula) near Vaxholm, Sweden."
+        }
+      ],
+      "sounds": [
+        {
+          "id": "jackdaw-tartu-2012",
+          "kind": "call",
+          "title": "Corvus monedula calls.ogg",
+          "url": "/media/sounds/jackdaw-tartu-2012.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Corvus_monedula_calls.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corvus_monedula_calls.ogg",
+          "recordist": "Veljo Runnel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "description": "European jackdaw call recorded in Tartu, Estonia."
+        },
+        {
+          "id": "jackdaw-finland-2009",
+          "kind": "call",
+          "title": "European Jackdaw's croaking.ogg",
+          "url": "/media/sounds/jackdaw-finland-2009.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/European_Jackdaw%27s_croaking.ogg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:European_Jackdaw%27s_croaking.ogg",
+          "recordist": "QWerk",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "description": "Two jackdaws calling to each other in western Finland."
+        },
+        {
+          "id": "jackdaw-xc436939",
+          "kind": "call",
+          "title": "Coloeus monedula - Western Jackdaw XC436939.mp3",
+          "url": "/media/sounds/jackdaw-xc436939.ogg",
+          "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Coloeus_monedula_-_Western_Jackdaw_XC436939.mp3",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coloeus_monedula_-_Western_Jackdaw_XC436939.mp3",
+          "recordist": "Joost van Bruggen",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "description": "Independent Western jackdaw recording imported from Xeno-canto."
+        },
+        {
+          "id": "jackdaw-xc1075128",
+          "kind": "call",
+          "title": "XC1075128 - Western Jackdaw - Coloeus monedula.mp3",
+          "url": "/media/sounds/jackdaw-xc1075128.ogg",
+          "downloadUrl": "https://xeno-canto.org/1075128/download",
+          "sourceUrl": "https://xeno-canto.org/1075128",
+          "recordist": "Thierry THOMAS",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call and flight call recording of Western Jackdaw (Coloeus monedula) from Xeno-canto."
+        }
+      ]
+    },
+    {
+      "id": "herring-gull",
+      "name": "Seagull",
+      "scientificName": "Larus argentatus",
+      "wikiUrls": [
+        "https://en.wikipedia.org/wiki/Larus",
+        "https://en.wikipedia.org/wiki/Gull"
+      ],
+      "images": [
+        {
+          "id": "herring-gull-adult-usedom",
+          "url": "/media/photos/herring-gull-1.webp",
+          "title": "Silbermöwe - Larus argentatus.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Silberm%C3%B6we_-_Larus_argentatus.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silberm%C3%B6we%20-%20Larus%20argentatus.jpg",
+          "creator": "Christian Reinboth",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:C.Reinboth",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "dimensions": "4000x3000",
+          "identityNote": "Gull identity: adult European Herring Gull (Larus argentatus), photographed on Usedom, Germany."
+        },
+        {
+          "id": "herring-gull-first-winter",
+          "url": "/media/photos/herring-gull-2.webp",
+          "title": "Larus argentatus first winter Tuileries 2018-03-03 n01.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Larus_argentatus_first_winter_Tuileries_2018-03-03_n01.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Larus%20argentatus%20first%20winter%20Tuileries%202018-03-03%20n01.jpg",
+          "creator": "Marie-Lan Nguyen",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Jastrow",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "dimensions": "4200x2800",
+          "identityNote": "Gull identity and age: young European Herring Gull (Larus argentatus) in first-winter plumage, photographed in Paris."
+        },
+        {
+          "id": "herring-gull-argenteus",
+          "url": "/media/photos/herring-gull-3.webp",
+          "title": "Herring Gulls, Coumeenoole Bay, Kerry, Ireland.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Herring_Gulls%2C_Coumeenoole_Bay%2C_Kerry%2C_Ireland.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Herring%20Gulls,%20Coumeenoole%20Bay,%20Kerry,%20Ireland.jpg",
+          "creator": "Scott Wieman",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Amurfalcon",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "dimensions": "3648x2736",
+          "identityNote": "Gull identity and subspecies: two European Herring Gulls of the subspecies Larus argentatus argenteus in Coumeenoole Bay, Ireland."
+        }
+      ],
+      "sounds": []
+    },
+    {
+      "id": "coot",
+      "name": "Coot",
+      "scientificName": "Fulica atra",
+      "wikiUrls": [
+        "https://en.wikipedia.org/wiki/Eurasian_coot"
+      ],
+      "images": [
+        {
+          "id": "coot-2023",
+          "url": "/media/photos/coot-1.webp",
+          "title": "Eurasian Coot 2023 11 25 03.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Eurasian_Coot_2023_11_25_03.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eurasian%20Coot%202023%2011%2025%2003.jpg",
+          "creator": "Alexis Lours",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Alexis_Lours",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "dimensions": "6960x4640",
+          "identityNote": "Source description identifies a Eurasian Coot (Fulica atra) in parc Georges-Valbon, France."
+        },
+        {
+          "id": "coot-kaliningrad",
+          "url": "/media/photos/coot-2.webp",
+          "title": "Лысуха (Fulica atra), Калининград.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/%D0%9B%D1%8B%D1%81%D1%83%D1%85%D0%B0_%28Fulica_atra%29%2C_%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%9B%D1%8B%D1%81%D1%83%D1%85%D0%B0%20(Fulica%20atra),%20%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4.jpg",
+          "creator": "Dion Art",
+          "creatorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Dion_Art&action=edit&redlink=1",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "dimensions": "4136x3192",
+          "identityNote": "Source description identifies a Eurasian Coot (Fulica atra) in Kaliningrad."
+        }
+      ],
+      "sounds": []
+    },
+    {
+      "id": "parakeet",
+      "name": "Parakeet",
+      "scientificName": "Psittacula krameri",
+      "wikiUrls": [
+        "https://en.wikipedia.org/wiki/Rose-ringed_parakeet"
+      ],
+      "images": [
+        {
+          "id": "parakeet-male-jaipur",
+          "url": "/media/photos/parakeet-1.webp",
+          "title": "Rose-ringed parakeet (Psittacula krameri borealis) male Jaipur 2.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Rose-ringed_parakeet_%28Psittacula_krameri_borealis%29_male_Jaipur_2.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rose-ringed%20parakeet%20(Psittacula%20krameri%20borealis)%20male%20Jaipur%202.jpg",
+          "creator": "Charles J. Sharp",
+          "creatorUrl": "https://www.wikidata.org/wiki/Q54800218",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "dimensions": "1993x2990",
+          "identityNote": "Source description identifies a male Rose-ringed Parakeet of the subspecies Psittacula krameri borealis in Jaipur, India."
+        },
+        {
+          "id": "parakeet-imran-shah",
+          "url": "/media/photos/parakeet-2.webp",
+          "title": "Rose-ringed Parakeet (Psittacula krameri) (50350706777).jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Rose-ringed_Parakeet_%28Psittacula_krameri%29_%2850350706777%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rose-ringed%20Parakeet%20(Psittacula%20krameri)%20(50350706777).jpg",
+          "creator": "Imran Shah from Islamabad, Pakistan",
+          "creatorUrl": "https://www.flickr.com/people/68466173@N02",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "dimensions": "1935x1420",
+          "identityNote": "Source title identifies a Rose-ringed Parakeet (Psittacula krameri) photographed in Pakistan."
+        },
+        {
+          "id": "parakeet-pair",
+          "url": "/media/photos/parakeet-3.webp",
+          "title": "Rose ringed parakeet.JPG",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Rose_ringed_parakeet.JPG",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rose%20ringed%20parakeet.JPG",
+          "creator": "Nireekshit",
+          "creatorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Nireekshit&action=edit&redlink=1",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "dimensions": "4481x2985",
+          "identityNote": "Source description identifies a pair of Rose-ringed Parakeets (Psittacula krameri) beside their tree hole."
+        }
+      ],
+      "sounds": []
+    }
+  ]
+}

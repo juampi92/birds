@@ -1,0 +1,11 @@
+node_modules/
+.svelte-kit/
+build/
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+static/media/candidates.json
+# Reviewed media is committed so builds and deployments are deterministic.
+static/media-manifest.json
+.media-cache-index.json

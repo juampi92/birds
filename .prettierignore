@@ -1,0 +1,6 @@
+node_modules/
+.agents/
+.svelte-kit/
+build/
+static/media/
+static/media-manifest.json
