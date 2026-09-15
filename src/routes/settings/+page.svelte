@@ -16,7 +16,6 @@
   <section class="page">
     <a class="back" href={resolve('/')} data-sveltekit-replacestate>‹ <span>Back</span></a>
     <p class="eyebrow">SETTINGS</p>
-    <h1>Keep it yours.</h1>
     <h2>Question modes</h2>
     <ModePicker
       selectedModes={app.selectedModes}

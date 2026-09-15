@@ -19,7 +19,6 @@
   <div class="result-summary">
     <p class="eyebrow">SESSION COMPLETE</p>
     <h1>{score} / {length}</h1>
-    <p>{score === length ? 'A clean round.' : 'Every answer is a useful review.'}</p>
   </div>
   <footer class="result-footer">
     <PracticeLauncher {selectedModes} {onModesChange} onStart={onStartAgain} />
