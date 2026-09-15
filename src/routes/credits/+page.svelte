@@ -26,7 +26,7 @@
 
 <main class="credits-page">
   <header class="credits-header">
-    <a class="credits-wordmark" href={resolve('/')} aria-label="Back to birds home">birds</a>
+    <a class="back credits-back" href={resolve('/')}>‹ <span>Back</span></a>
     <p class="eyebrow">MEDIA CREDITS</p>
     <h1>Credits</h1>
     <p class="credits-intro">

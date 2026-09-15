@@ -443,13 +443,9 @@ h1 {
   width: min(100%, 980px);
   margin: 0 auto 32px;
 }
-.credits-wordmark {
+.credits-back {
   display: inline-block;
-  margin: 0 0 44px;
-  font-size: 1.5rem;
-  font-weight: 650;
-  letter-spacing: -0.05em;
-  text-decoration: none;
+  margin-bottom: 44px;
 }
 .credits-header .eyebrow {
   margin-bottom: 12px;
@@ -559,6 +555,12 @@ h1 {
   min-width: 280px;
   margin: 0 0 7px;
 }
+.credits-audio-resource {
+  flex-direction: column;
+}
+.credits-audio-resource > div {
+  width: 100%;
+}
 .credits-asset-link {
   white-space: nowrap;
 }
@@ -566,7 +568,7 @@ h1 {
   white-space: nowrap;
 }
 @media (max-width: 639px) {
-  .credits-wordmark {
+  .credits-back {
     margin-bottom: 32px;
   }
   .credits-header {

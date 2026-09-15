@@ -72,7 +72,7 @@
         >merlin bird id</a
       >
       <span aria-hidden="true">·</span>
-      <a href={resolve('/credits')} target="_blank" rel="noopener noreferrer">credits</a>
+      <a href={resolve('/credits')}>credits</a>
       <span aria-hidden="true">·</span>
       <span>no tracking</span>
     </footer>
