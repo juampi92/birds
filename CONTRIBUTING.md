@@ -8,6 +8,7 @@ Requirements:
 
 - Node.js and npm
 - Network access if you need to add or refresh reviewed media
+- ffmpeg and ffprobe if you need to prepare or test reviewed media
 
 Install the locked dependencies from the repository root:
 
@@ -34,11 +35,12 @@ Then open `http://localhost:5174`. The back office reads and saves `static/media
 Other useful commands:
 
 ```sh
-npm run check          # Diagnostics, lint, formatting check, and the full test suite
-npm test               # Full Vitest suite (supports filters after --)
+npm run check          # Diagnostics, lint, formatting check, and application tests
+npm run test:app       # Website/application tests (safe for CI)
+npm run test:media     # Media preparation and committed-artifact tests (requires ffmpeg/ffprobe)
 npm run format         # Format the project
 npm run media          # Download, validate, and prepare reviewed media
-npm run build          # Validate media, generate the manifest, and build the site
+npm run build          # Validate committed media and manifest, then build the site
 npm run preview        # Preview the production build locally
 ```
 
@@ -52,7 +54,7 @@ To add or refresh reviewed downloads, validate the catalogue, and regenerate the
 npm run media
 ```
 
-The build runs media validation and manifest generation automatically. Do not replace a reviewed asset with a new file without updating its attribution metadata and checking the licence allowlist used by the download scripts. To replace an existing prepared file, remove that target from `static/media/photos` or `static/media/sounds`, then run the focused downloader with `IMAGE_IDS` or `SOUND_IDS`. Invoke the corresponding downloader directly with `node scripts/media/download-images.mjs` or `node scripts/media/download-sounds.mjs` when needed.
+The media command downloads, prepares, validates, and regenerates the committed media manifest. The build validates the committed media and manifest but does not download media or regenerate files. Do not replace a reviewed asset with a new file without updating its attribution metadata and checking the licence allowlist used by the download scripts. To replace an existing prepared file, remove that target from `static/media/photos` or `static/media/sounds`, then run the focused downloader with `IMAGE_IDS` or `SOUND_IDS`. Invoke the corresponding downloader directly with `node scripts/media/download-images.mjs` or `node scripts/media/download-sounds.mjs` when needed.
 Validation rejects unreferenced files, media at or above 50 MiB per file, and a
 library at or above 250 MiB; approaching the aggregate limit requires revisiting
 the storage strategy before adding more assets.

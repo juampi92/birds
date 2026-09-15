@@ -13,5 +13,9 @@ await runSteps([
   {
     label: 'Generate the media manifest',
     task: () => runNode('scripts/media/generate-media-manifest.mjs')
+  },
+  {
+    label: 'Validate the generated media manifest',
+    task: () => runNode('scripts/media/validate-media-manifest.mjs')
   }
 ]);

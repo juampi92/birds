@@ -5,7 +5,7 @@ multi-step implementations live under `commands/` and use the shared runner in
 `utils/`.
 
 - `commands/` — orchestration for `npm run check`, `npm run media`, and `npm run build`.
-- `media/` — reviewed image and sound downloaders, catalogue validation, and manifest generation.
+- `media/` — reviewed image and sound downloaders, catalogue validation, and manifest generation/validation.
 - `utils/` — reusable media inspection, local preparation indexing, and child-process helpers.
 - `tests/` — Vitest suites covering application, media preparation, and offline-client behavior.
 

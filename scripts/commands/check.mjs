@@ -10,5 +10,8 @@ await runSteps([
   },
   { label: 'ESLint', task: () => runTool('eslint', ['.']) },
   { label: 'Formatting', task: () => runTool('prettier', ['--check', '.']) },
-  { label: 'Tests', task: () => runTool('vitest', ['run', ...process.argv.slice(2)]) }
+  {
+    label: 'Application tests',
+    task: () => runTool('vitest', ['run', 'src', 'scripts/tests/offline-client.test.mjs'])
+  }
 ]);

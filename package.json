@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite dev",
     "check": "node scripts/commands/check.mjs",
-    "test": "vitest run",
+    "test:app": "vitest run src scripts/tests/offline-client.test.mjs",
+    "test:media": "vitest run scripts/tests/media-cache.test.mjs scripts/tests/media-validation.test.mjs scripts/tests/media-manifest.test.mjs scripts/tests/image-download.test.mjs scripts/tests/sound-download.test.mjs",
     "format": "prettier --write .",
     "media": "node scripts/commands/media.mjs",
     "build": "node scripts/commands/build.mjs",
