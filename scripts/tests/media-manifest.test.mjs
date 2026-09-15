@@ -7,15 +7,15 @@ import { promisify } from 'node:util';
 import { it } from 'vitest';
 
 const execFile = promisify(execFileCallback);
+const generator = resolve(process.cwd(), 'scripts/media/generate-media-manifest.mjs');
 const validator = resolve(process.cwd(), 'scripts/media/validate-media-manifest.mjs');
 const mediaRoot = resolve(process.cwd(), 'static/media');
-const manifestPath = resolve(process.cwd(), 'static/media-manifest.json');
 
 async function withFixture(test) {
   const fixture = await mkdtemp(join(tmpdir(), 'birds-media-manifest-'));
   try {
     await cp(mediaRoot, join(fixture, 'static/media'), { recursive: true });
-    await cp(manifestPath, join(fixture, 'static/media-manifest.json'));
+    await execFile(process.execPath, [generator], { cwd: fixture });
     await test(fixture);
   } finally {
     await rm(fixture, { recursive: true, force: true });
@@ -29,7 +29,7 @@ async function validationError(fixture) {
   );
 }
 
-it('accepts the committed manifest and its reviewed assets', async () => {
+it('accepts a generated manifest and its reviewed assets', async () => {
   await withFixture(async (fixture) => {
     const result = await execFile(process.execPath, [validator], { cwd: fixture });
     assert.match(result.stdout, /Validated media manifest \(\d+ assets, \d+ photos, \d+ sounds/);
@@ -46,7 +46,7 @@ it('rejects a manifest whose asset hash is stale', async () => {
   });
 });
 
-it('rejects a manifest that omits a committed asset', async () => {
+it('rejects a manifest that omits a reviewed asset', async () => {
   await withFixture(async (fixture) => {
     const manifestPath = join(fixture, 'static/media-manifest.json');
     const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
@@ -69,7 +69,7 @@ it('rejects a manifest with an extra asset entry', async () => {
   });
 });
 
-it('rejects a manifest whose committed file is missing', async () => {
+it('rejects a manifest whose reviewed file is missing', async () => {
   await withFixture(async (fixture) => {
     await unlink(join(fixture, 'static/media/photos/robin-1.webp'));
     await validationError(fixture);

@@ -6,4 +6,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 static/media/candidates.json
+# Generated from static/media/catalog.json and the local media files.
+static/media-manifest.json
 .media-cache-index.json

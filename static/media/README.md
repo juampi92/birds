@@ -29,7 +29,8 @@ Reviewed CC BY-NC-ND 4.0 recordings are also permitted, but are format-converted
 their complete duration is retained instead of applying the normal 60-second cap.
 Do not use the generated planning mockup as a photograph source.
 
-The media workflow produces `../media-manifest.json` from the committed local copies. The
-deployment build validates that committed manifest against the local files instead of
-regenerating it. The manifest is deterministic and records each file's SHA-256 digest, size,
-MIME type and a digest-query URL so the PWA can identify unchanged files across deployments.
+The media workflow produces `../media-manifest.json` from the reviewed catalogue and local
+copies. The manifest is intentionally ignored by Git and is regenerated automatically by the
+development, check, and deployment build commands. It is deterministic and records each file's
+SHA-256 digest, size, MIME type and a digest-query URL so the PWA can identify unchanged files
+across deployments.

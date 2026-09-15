@@ -37,10 +37,10 @@ Other useful commands:
 ```sh
 npm run check          # Diagnostics, lint, formatting check, and application tests
 npm run test:app       # Website/application tests (safe for CI)
-npm run test:media     # Media preparation and committed-artifact tests (requires ffmpeg/ffprobe)
+npm run test:media     # Media preparation and generated-artifact tests (requires ffmpeg/ffprobe)
 npm run format         # Format the project
 npm run media          # Download, validate, and prepare reviewed media
-npm run build          # Validate committed media and manifest, then build the site
+npm run build          # Validate media, generate the manifest, then build the site
 npm run preview        # Preview the production build locally
 ```
 
@@ -48,13 +48,13 @@ npm run preview        # Preview the production build locally
 
 Reviewed media is self-hosted and committed so the deployed PWA can work offline and builds remain deterministic. Before changing an asset, verify its source page, creator or recordist, and licence. Keep that information in the catalogue. Commit the prepared binary together with its catalogue and attribution changes; media retain their individual licences and are not covered by the application’s MIT licence.
 
-To add or refresh reviewed downloads, validate the catalogue, and regenerate the manifest:
+To add or refresh reviewed downloads, validate the catalogue, and regenerate the local manifest:
 
 ```sh
 npm run media
 ```
 
-The media command downloads, prepares, validates, and regenerates the committed media manifest. The build validates the committed media and manifest but does not download media or regenerate files. Do not replace a reviewed asset with a new file without updating its attribution metadata and checking the licence allowlist used by the download scripts. To replace an existing prepared file, remove that target from `static/media/photos` or `static/media/sounds`, then run the focused downloader with `IMAGE_IDS` or `SOUND_IDS`. Invoke the corresponding downloader directly with `node scripts/media/download-images.mjs` or `node scripts/media/download-sounds.mjs` when needed.
+The media command downloads, prepares, validates, and regenerates the local media manifest. The manifest is derived from `static/media/catalog.json` and the local media files, and is intentionally ignored by Git. The build and development commands regenerate it automatically; neither command downloads media. Do not replace a reviewed asset with a new file without updating its attribution metadata and checking the licence allowlist used by the download scripts. To replace an existing prepared file, remove that target from `static/media/photos` or `static/media/sounds`, then run the focused downloader with `IMAGE_IDS` or `SOUND_IDS`. Invoke the corresponding downloader directly with `node scripts/media/download-images.mjs` or `node scripts/media/download-sounds.mjs` when needed.
 Validation rejects unreferenced files, media at or above 50 MiB per file, and a
 library at or above 250 MiB; approaching the aggregate limit requires revisiting
 the storage strategy before adding more assets.

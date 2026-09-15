@@ -1,6 +1,10 @@
-import { runSteps, runTool } from '../utils/run-step.mjs';
+import { runNode, runSteps, runTool } from '../utils/run-step.mjs';
 
 await runSteps([
+  {
+    label: 'Generate the media manifest',
+    task: () => runNode('scripts/media/generate-media-manifest.mjs')
+  },
   {
     label: 'Svelte and TypeScript diagnostics',
     task: () =>
