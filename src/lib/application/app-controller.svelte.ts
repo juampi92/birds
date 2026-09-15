@@ -211,7 +211,7 @@ export class AppController {
 
   private persist() {
     const snapshot: PersistedSnapshot = {
-      schemaVersion: 2,
+      schemaVersion: 3,
       progress: this.learning.progress,
       attempts: this.learning.attempts,
       preferences: this.learning.preferences

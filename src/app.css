@@ -116,10 +116,15 @@ a {
   padding: 11px;
   text-decoration: none;
 }
+.menu-note {
+  padding: 11px;
+  color: #777773;
+  font-size: 0.8rem;
+}
 .home-content {
   display: flex;
   flex-direction: column;
-  padding-top: clamp(20px, 3svh, 36px);
+  padding-top: clamp(24px, 4svh, 40px);
 }
 .eyebrow {
   margin: 0 0 18px;
@@ -129,8 +134,9 @@ a {
   letter-spacing: 0.15em;
 }
 .home-subtitle {
-  margin: 0 0 18px;
-  font-size: 1.25rem;
+  margin: 0 0 32px;
+  color: #555550;
+  font-size: 1.1rem;
   line-height: 1.3;
 }
 h1 {
@@ -142,10 +148,10 @@ h1 {
 .home-hero,
 .home-hero-placeholder {
   display: block;
-  width: min(100%, 12rem);
+  width: min(100%, 9.5rem);
   height: auto;
   aspect-ratio: 1;
-  margin: 28px auto 18px;
+  margin: 28px auto 28px;
   border-radius: 8px;
   object-fit: contain;
   background: #f0f0ed;
@@ -194,15 +200,19 @@ h1 {
 .practice-picker {
   width: 100%;
 }
+.practice-mode-label {
+  margin-bottom: 12px;
+}
 .practice-actions {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 28px;
 }
 .practice-action {
   display: flex;
   width: 100%;
-  min-height: 64px;
+  min-height: 58px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -225,9 +235,9 @@ h1 {
 }
 .mode-picker {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
-  margin: 0 0 12px;
+  margin: 0;
   border: 0;
   padding: 0;
 }
@@ -237,30 +247,45 @@ h1 {
   min-width: 0;
   min-height: 52px;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   border: 1px solid #d0d0cc;
   border-radius: 8px;
-  padding: 10px;
+  padding: 8px;
   background: #fff;
   cursor: pointer;
 }
 .mode-option.selected {
   border-color: #111;
+  background: #f5f5f3;
   box-shadow: inset 0 0 0 1px #111;
 }
 .mode-option input {
-  width: 17px;
-  height: 17px;
-  flex: 0 0 auto;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
   margin: 0;
-  accent-color: #111;
+  cursor: pointer;
+  opacity: 0;
+}
+.mode-check {
+  display: grid;
+  width: 17px;
+  height: 20px;
+  flex: 0 0 17px;
+  place-items: center;
+  color: #111;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1;
 }
 .mode-flow {
   display: flex;
   min-width: 0;
   align-items: center;
   gap: 4px;
-  font-size: 0.84rem;
+  font-size: 0.8rem;
   white-space: nowrap;
 }
 .mode-icon {
@@ -287,22 +312,23 @@ h1 {
   color: #6b6b67;
 }
 .practice-error {
-  margin: 9px 0 0;
+  margin: 12px 0 0;
   color: #8f2929;
   font-size: 0.84rem;
   text-align: center;
 }
 @media (max-width: 620px) {
-  .mode-picker {
-    grid-template-columns: 1fr;
-  }
   .mode-option {
-    min-height: 48px;
+    min-height: 52px;
   }
 }
 @media (max-width: 390px) {
-  .practice-actions {
-    grid-template-columns: 1fr;
+  .mode-option {
+    padding-inline: 6px;
+  }
+  .mode-flow {
+    gap: 3px;
+    font-size: 0.76rem;
   }
 }
 .settings-mode-picker {
@@ -324,8 +350,16 @@ h1 {
   box-shadow: none;
 }
 .settings-mode-picker .mode-option input {
+  position: static;
+  z-index: auto;
   width: 17px;
   height: 17px;
+  opacity: 1;
+  cursor: default;
+  accent-color: #111;
+}
+.settings-mode-picker .mode-check {
+  display: none;
 }
 .settings-mode-picker .mode-option label {
   display: flex;
@@ -342,7 +376,7 @@ h1 {
   flex: 0 0 auto;
 }
 .home-links {
-  margin-top: 24px;
+  margin-top: 40px;
   border-top: 1px solid #dddcd8;
 }
 .home-links button,
@@ -361,8 +395,8 @@ h1 {
   text-decoration: none;
 }
 .home-links span {
-  font-size: 1.6rem;
-  line-height: 0.7;
+  font-size: 1.25rem;
+  line-height: 1.2;
 }
 .home-links .home-link-label {
   font-size: inherit;
@@ -767,8 +801,9 @@ h1 {
 .result-footer .practice-picker {
   width: 100%;
 }
-.result-footer .practice-actions .primary {
-  width: auto;
+.result-footer .practice-actions .primary,
+.result-footer .practice-actions .secondary {
+  width: 100%;
 }
 .result-footer .text-button {
   align-self: center;
@@ -991,6 +1026,10 @@ h1 {
   border-color: #c3c3bf;
   color: #111;
   background: #fff;
+}
+.secondary:hover {
+  border-color: #999994;
+  background: #f0f0ed;
 }
 .danger {
   border-color: #8f2929;

@@ -3,19 +3,21 @@ import { modes, type Mode } from '$lib/data';
 import type { Attempt, Progress } from '$lib/engine';
 
 const DB_NAME = 'birds-practice';
-const DB_VERSION = 2;
+const DB_VERSION = 3;
 const STORE_NAME = 'snapshot';
 const SNAPSHOT_KEY = 'current';
 
 export type PersistedSnapshot = {
-  schemaVersion: 2;
+  schemaVersion: 3;
   progress: Record<string, Progress>;
   attempts: Attempt[];
   preferences: { modes: Mode[] };
 };
 
-type LegacySnapshot = Partial<PersistedSnapshot> & {
-  session?: unknown;
+type LegacySnapshot = {
+  progress?: unknown;
+  attempts?: unknown;
+  preferences?: { modes?: unknown };
 };
 
 const initialSnapshot = (): PersistedSnapshot => ({
@@ -37,15 +39,34 @@ function openDb(): Promise<IDBDatabase> {
   });
 }
 
-function normalizeSnapshot(value: unknown): PersistedSnapshot {
+function isSupportedMode(value: unknown): value is Mode {
+  return typeof value === 'string' && modes.includes(value as Mode);
+}
+
+function normalizeProgress(value: unknown): Record<string, Progress> {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) return {};
+  return Object.fromEntries(
+    Object.entries(value).filter(([key]) => isSupportedMode(key.slice(key.lastIndexOf(':') + 1)))
+  );
+}
+
+function normalizeAttempts(value: unknown): Attempt[] {
+  if (!Array.isArray(value)) return [];
+  return value.filter((attempt): attempt is Attempt => {
+    if (!attempt || typeof attempt !== 'object') return false;
+    return isSupportedMode((attempt as { mode?: unknown }).mode);
+  });
+}
+
+export function normalizeSnapshot(value: unknown): PersistedSnapshot {
   const saved = (value ?? {}) as LegacySnapshot;
   const selectedModes = Array.isArray(saved.preferences?.modes)
-    ? saved.preferences.modes.filter((mode): mode is Mode => modes.includes(mode))
+    ? saved.preferences.modes.filter(isSupportedMode)
     : [];
   return {
     schemaVersion: DB_VERSION,
-    progress: saved.progress && typeof saved.progress === 'object' ? saved.progress : {},
-    attempts: Array.isArray(saved.attempts) ? saved.attempts : [],
+    progress: normalizeProgress(saved.progress),
+    attempts: normalizeAttempts(saved.attempts),
     preferences: { modes: selectedModes.length ? selectedModes : [...modes] }
   };
 }

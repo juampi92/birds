@@ -15,6 +15,7 @@
 </script>
 
 <div class="practice-picker">
+  <p class="eyebrow practice-mode-label">PRACTICE MODES</p>
   <ModePicker {selectedModes} onChange={onModesChange} {disabled} />
   <div class="practice-actions" aria-label="Choose a practice length">
     <button
@@ -22,16 +23,15 @@
       disabled={disabled || !hasSelectedModes}
       onclick={() => onStart(10)}
     >
-      <span>Practice</span>
-      <small>A 10-question round</small>
+      <span>Start practice</span>
+      <small>10 questions</small>
     </button>
     <button
-      class="primary practice-action"
+      class="secondary practice-action"
       disabled={disabled || !hasSelectedModes}
       onclick={() => onStart(3)}
     >
-      <span>Quick practice</span>
-      <small>Short 3-question round</small>
+      <span>Start 3-question practice</span>
     </button>
   </div>
   {#if !hasSelectedModes}

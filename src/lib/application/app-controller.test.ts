@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { AppController } from './app-controller.svelte';
+import { modes } from '$lib/data';
 
 describe('AppController', () => {
   it('hydrates, starts a round, and records one answer transaction', async () => {
@@ -7,6 +8,7 @@ describe('AppController', () => {
     await app.initialize();
 
     expect(app.status).toBe('ready');
+    expect(app.selectedModes).toEqual(modes);
     expect(app.startPractice(3)).toEqual({ ok: true });
     expect(app.session?.questions).toHaveLength(3);
 

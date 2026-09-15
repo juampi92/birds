@@ -7,21 +7,13 @@
   let { question }: Props = $props();
 
   let prompt = $derived(
-    question.mode.startsWith('sound-')
-      ? 'Which bird made this sound?'
-      : question.mode === 'photo-name'
-        ? 'Which bird is this?'
-        : question.bird.name
+    question.mode.startsWith('sound-') ? 'Which bird made this sound?' : 'Which bird is this?'
   );
 </script>
 
 <div class="quiz-prompt">
   <p class="eyebrow">
-    {question.mode === 'sound-photo'
-      ? 'Sound → photo'
-      : question.mode === 'sound-name'
-        ? 'Sound → name'
-        : 'Photo → name'}
+    {question.mode === 'sound-photo' ? 'Sound → photo' : 'Photo → name'}
   </p>
   <h2>{prompt}</h2>
   {#if question.mode === 'photo-name'}

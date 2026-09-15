@@ -1,4 +1,4 @@
-export type Mode = 'sound-photo' | 'sound-name' | 'photo-name';
+export type Mode = 'sound-photo' | 'photo-name';
 import catalog from '../../static/media/catalog.json';
 export type MediaKind = 'song' | 'call' | 'drumming';
 
@@ -90,10 +90,9 @@ export const birds: Bird[] = catalog.birds.map((entry) => {
   };
 });
 
-export const modes: Mode[] = ['sound-photo', 'sound-name', 'photo-name'];
+export const modes: Mode[] = ['sound-photo', 'photo-name'];
 export const modeLabels: Record<Mode, string> = {
   'sound-photo': 'Sound → photo',
-  'sound-name': 'Sound → name',
   'photo-name': 'Photo → name'
 };
 

@@ -140,7 +140,7 @@ describe('createSession', () => {
   });
 
   it('keeps a ten-question session in the selected category', () => {
-    const soundSession = createSession({}, [], ['sound-name'], {
+    const soundSession = createSession({}, [], ['sound-photo'], {
       now,
       random: randomSource(12),
       questionCount: 10
@@ -152,7 +152,7 @@ describe('createSession', () => {
     });
 
     expect(soundSession.questions).toHaveLength(10);
-    expect(soundSession.questions.every((question) => question.mode === 'sound-name')).toBe(true);
+    expect(soundSession.questions.every((question) => question.mode === 'sound-photo')).toBe(true);
     expect(photoSession.questions).toHaveLength(10);
     expect(photoSession.questions.every((question) => question.mode === 'photo-name')).toBe(true);
   });
@@ -176,7 +176,7 @@ describe('createSession', () => {
     const missed = attempt('great-tit', 'sound-photo', 'session-1', now - 3600000, false);
     const attempts = [
       missed,
-      attempt('blue-tit', 'sound-name', 'session-1', now - 3500000),
+      attempt('blue-tit', 'sound-photo', 'session-1', now - 3500000),
       attempt('house-sparrow', 'photo-name', 'session-1', now - 3400000)
     ];
     const progress: Record<string, Progress> = {};
@@ -460,7 +460,7 @@ describe('learning summaries and history reconstruction', () => {
         correct: 2,
         confusions: { 'blue-tit': 2 }
       },
-      'great-tit:sound-name': {
+      'great-tit:photo-name': {
         ...emptyProgressForTest(),
         attempts: 2,
         correct: 1,
@@ -636,34 +636,25 @@ describe('target roles, cooldown, and mode balance', () => {
     expect(session.questions.some((question) => question.bird.id === 'great-tit')).toBe(true);
   });
 
-  it('boosts a mode that has been underused in the last twelve attempts', () => {
+  it('generates only the supported modes across repeated sessions', () => {
     const attempts = Array.from({ length: 6 }, (_, index) =>
       attempt('great-tit', 'sound-photo', `mode-history-${index}`, now - (12 - index) * 3600000)
     );
-    const counts: Record<Mode, number> = {
-      'sound-photo': 0,
-      'sound-name': 0,
-      'photo-name': 0
-    };
+    const generatedModes = new Set<Mode>();
 
     for (let seed = 1; seed <= 120; seed += 1) {
-      const session = createSession(
-        progressFor(attempts),
-        attempts,
-        ['sound-photo', 'sound-name'],
-        {
-          now,
-          random: randomSource(seed)
-        }
-      );
-      for (const question of session.questions) counts[question.mode] += 1;
+      const session = createSession(progressFor(attempts), attempts, modes, {
+        now,
+        random: randomSource(seed)
+      });
+      for (const question of session.questions) generatedModes.add(question.mode);
     }
 
-    expect(counts['sound-name']).toBeGreaterThan(counts['sound-photo']);
+    expect(generatedModes).toEqual(new Set(modes));
   });
 
   it('keeps sound-only sessions on birds with usable recordings', () => {
-    const session = createSession({}, [], ['sound-name'], {
+    const session = createSession({}, [], ['sound-photo'], {
       now,
       random: randomSource(34),
       questionCount: 10
@@ -742,7 +733,7 @@ describe('confusion-driven surrounding birds', () => {
     const attempts = [
       attempt('great-tit', 'photo-name', 'cross-mode-1', now - 5 * 86400000),
       attempt('great-tit', 'photo-name', 'cross-mode-2', now - 4 * 86400000),
-      attempt('great-tit', 'sound-name', 'cross-mode-3', now - 3 * 86400000),
+      attempt('great-tit', 'photo-name', 'cross-mode-3', now - 3 * 86400000),
       attempt('great-tit', 'sound-photo', 'cross-mode-4', now - 2 * 86400000, false, 'blue-tit')
     ];
     const question = sessionWithQuestion(

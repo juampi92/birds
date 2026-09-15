@@ -7,7 +7,7 @@ import type { Mode } from './data';
 
 afterEach(() => cleanup());
 
-const allModes: Mode[] = ['sound-photo', 'sound-name', 'photo-name'];
+const allModes: Mode[] = ['sound-photo', 'photo-name'];
 
 function renderPicker(selectedModes: Mode[] = allModes) {
   return render(PracticeLauncher, {
@@ -18,25 +18,27 @@ function renderPicker(selectedModes: Mode[] = allModes) {
 }
 
 describe('PracticeLauncher', () => {
-  it('shows the three concise question types before Practice and Quick practice', () => {
+  it('shows the two concise question types selected by default', () => {
     const { container } = renderPicker();
 
     const checkboxes = screen.getAllByRole('checkbox');
-    expect(checkboxes).toHaveLength(3);
+    expect(checkboxes).toHaveLength(2);
     expect(checkboxes.every((checkbox) => (checkbox as HTMLInputElement).checked)).toBe(true);
-    expect(container.querySelectorAll('.mode-icon')).toHaveLength(6);
-    expect(container.querySelectorAll('.mode-icon-text')).toHaveLength(2);
+    expect(container.querySelectorAll('.mode-icon')).toHaveLength(2);
+    expect(container.querySelectorAll('.mode-icon-text')).toHaveLength(0);
+    expect(container.querySelectorAll('.mode-check')).toHaveLength(2);
+    expect(container.textContent).not.toContain('Sound → name');
     expect(screen.getByRole('checkbox', { name: 'sound to photo' })).toBeTruthy();
     expect(screen.getByRole('checkbox', { name: 'photo to name' })).toBeTruthy();
 
     const buttons = screen.getAllByRole('button');
     expect(buttons.map((button) => button.textContent?.replace(/\s+/g, ' ').trim())).toEqual([
-      'Practice A 10-question round',
-      'Quick practice Short 3-question round'
+      'Start practice 10 questions',
+      'Start 3-question practice'
     ]);
   });
 
-  it('keeps the existing round labels while sending the requested length', async () => {
+  it('uses the clear three-question action while sending the requested length', async () => {
     const onStart = vi.fn();
     render(PracticeLauncher, {
       selectedModes: allModes,
@@ -44,12 +46,12 @@ describe('PracticeLauncher', () => {
       onModesChange: vi.fn()
     });
 
-    const quickPractice = screen.getByRole('button', { name: /quick practice/i });
+    const quickPractice = screen.getByRole('button', { name: 'Start 3-question practice' });
     await fireEvent.click(quickPractice);
 
     expect(onStart).toHaveBeenCalledWith(3);
     expect(quickPractice.textContent?.replace(/\s+/g, ' ').trim()).toBe(
-      'Quick practice Short 3-question round'
+      'Start 3-question practice'
     );
   });
 
@@ -64,7 +66,7 @@ describe('PracticeLauncher', () => {
     const soundToPhoto = screen.getByRole('checkbox', { name: 'sound to photo' });
     await fireEvent.click(soundToPhoto);
 
-    expect(onModesChange).toHaveBeenCalledWith(['sound-name', 'photo-name']);
+    expect(onModesChange).toHaveBeenCalledWith(['photo-name']);
     expect((soundToPhoto as HTMLInputElement).checked).toBe(false);
   });
 

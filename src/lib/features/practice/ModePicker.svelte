@@ -16,7 +16,6 @@
     output: 'photo' | 'name';
   }> = [
     { mode: 'sound-photo', input: 'sound', output: 'photo' },
-    { mode: 'sound-name', input: 'sound', output: 'name' },
     { mode: 'photo-name', input: 'photo', output: 'name' }
   ];
 
@@ -39,6 +38,9 @@
         aria-label={`${option.input} to ${option.output}`}
         onchange={(event) => toggle(option.mode, event.currentTarget.checked)}
       />
+      <span class="mode-check" aria-hidden="true">
+        {selectedModes.includes(option.mode) ? '✓' : ''}
+      </span>
       <span class="mode-flow" aria-hidden="true">
         {#if option.input === 'sound'}
           <svg class="mode-icon" viewBox="0 0 24 24" fill="none">
@@ -54,15 +56,6 @@
         {/if}
         <span>{option.input === 'sound' ? 'Sound' : 'Photo'}</span>
         <span class="mode-arrow" aria-hidden="true">→</span>
-        {#if option.output === 'photo'}
-          <svg class="mode-icon" viewBox="0 0 24 24" fill="none">
-            <rect x="3" y="4" width="18" height="16" rx="2" />
-            <circle cx="8.5" cy="9" r="1.5" />
-            <path d="m3 16 5-5 4 4 3-3 6 6" />
-          </svg>
-        {:else}
-          <span class="mode-icon mode-icon-text">Aa</span>
-        {/if}
         <span>{option.output}</span>
       </span>
     </label>
