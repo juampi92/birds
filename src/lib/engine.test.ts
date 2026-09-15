@@ -673,14 +673,14 @@ describe('target roles, cooldown, and mode balance', () => {
     ).toBe(true);
   });
 
-  it('reuses a sound-capable bird when a ten-question sound round exceeds the sound catalogue', () => {
+  it('uses distinct sound-capable birds when the catalogue can supply them', () => {
     const session = createSession({}, [], ['sound-photo'], {
       now,
       random: randomSource(39),
       questionCount: 10
     });
 
-    expect(new Set(session.questions.map((question) => question.bird.id)).size).toBe(9);
+    expect(new Set(session.questions.map((question) => question.bird.id)).size).toBe(10);
   });
 
   it('groups legacy attempts into sets of three for cooldown', () => {

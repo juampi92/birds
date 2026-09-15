@@ -513,6 +513,54 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "description": "Turdus merula recording from Wikimedia Commons."
+        },
+        {
+          "id": "blackbird-xc1175963",
+          "kind": "song",
+          "title": "XC1175963 - Common Blackbird - Turdus merula.mp3",
+          "url": "/media/sounds/blackbird-xc1175963.ogg",
+          "downloadUrl": "https://xeno-canto.org/1175963/download",
+          "sourceUrl": "https://xeno-canto.org/1175963",
+          "recordist": "Amselforscher",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Dawn song recording of Common Blackbird (Turdus merula) from Xeno-canto."
+        },
+        {
+          "id": "blackbird-xc1165101",
+          "kind": "song",
+          "title": "XC1165101 - Common Blackbird - Turdus merula.wav",
+          "url": "/media/sounds/blackbird-xc1165101.ogg",
+          "downloadUrl": "https://xeno-canto.org/1165101/download",
+          "sourceUrl": "https://xeno-canto.org/1165101",
+          "recordist": "Zsombor Károlyi",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Song recording of Common Blackbird (Turdus merula) from Xeno-canto."
+        },
+        {
+          "id": "blackbird-xc1156193",
+          "kind": "call",
+          "title": "XC1156193 - Common Blackbird - Turdus merula.wav",
+          "url": "/media/sounds/blackbird-xc1156193.ogg",
+          "downloadUrl": "https://xeno-canto.org/1156193/download",
+          "sourceUrl": "https://xeno-canto.org/1156193",
+          "recordist": "Adrien Peillon",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Alarm call recording of Common Blackbird (Turdus merula) from Xeno-canto."
+        },
+        {
+          "id": "blackbird-xc1155752",
+          "kind": "song",
+          "title": "XC1155752 - Common Blackbird - Turdus merula.mp3",
+          "url": "/media/sounds/blackbird-xc1155752.ogg",
+          "downloadUrl": "https://xeno-canto.org/1155752/download",
+          "sourceUrl": "https://xeno-canto.org/1155752",
+          "recordist": "Amselforscher",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Dawn song recording of Common Blackbird (Turdus merula) from Xeno-canto."
         }
       ]
     },
@@ -561,7 +609,32 @@
           "identityNote": "Source description identifies a Common Wood Pigeon (Columba palumbus) photographed in Vaxholm, Sweden."
         }
       ],
-      "sounds": []
+      "sounds": [
+        {
+          "id": "wood-pigeon-xc920599",
+          "kind": "song",
+          "title": "XC920599 - Common Wood Pigeon - Columba palumbus.mp3",
+          "url": "/media/sounds/wood-pigeon-xc920599.ogg",
+          "downloadUrl": "https://xeno-canto.org/920599/download",
+          "sourceUrl": "https://xeno-canto.org/920599",
+          "recordist": "Lars Edenius",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Song recording of Common Wood Pigeon (Columba palumbus) from Xeno-canto."
+        },
+        {
+          "id": "wood-pigeon-xc662356",
+          "kind": "song",
+          "title": "XC662356 - Common Wood Pigeon - Columba palumbus.mp3",
+          "url": "/media/sounds/wood-pigeon-xc662356.ogg",
+          "downloadUrl": "https://xeno-canto.org/662356/download",
+          "sourceUrl": "https://xeno-canto.org/662356",
+          "recordist": "Susanne Kuijpers",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Song recording of Common Wood Pigeon (Columba palumbus) from Xeno-canto."
+        }
+      ]
     },
     {
       "id": "collared-dove",
@@ -595,7 +668,32 @@
           "identityNote": "Source description identifies a Eurasian Collared Dove (Streptopelia decaocto) near Plovdiv, Bulgaria."
         }
       ],
-      "sounds": []
+      "sounds": [
+        {
+          "id": "collared-dove-xc659767",
+          "kind": "song",
+          "title": "XC659767 - Eurasian Collared Dove - Streptopelia decaocto.mp3",
+          "url": "/media/sounds/collared-dove-xc659767.ogg",
+          "downloadUrl": "https://xeno-canto.org/659767/download",
+          "sourceUrl": "https://xeno-canto.org/659767",
+          "recordist": "Olivier SWIFT",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Song recording of Eurasian Collared Dove (Streptopelia decaocto) from Xeno-canto."
+        },
+        {
+          "id": "collared-dove-xc635436",
+          "kind": "song",
+          "title": "XC635436 - Eurasian Collared Dove - Streptopelia decaocto.mp3",
+          "url": "/media/sounds/collared-dove-xc635436.ogg",
+          "downloadUrl": "https://xeno-canto.org/635436/download",
+          "sourceUrl": "https://xeno-canto.org/635436",
+          "recordist": "Susanne Kuijpers",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Song recording of Eurasian Collared Dove (Streptopelia decaocto) from Xeno-canto."
+        }
+      ]
     },
     {
       "id": "great-spotted-woodpecker",
@@ -654,6 +752,18 @@
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
           "description": "The drumming of a Great Spotted Woodpecker, recorded in Yarmer Wood, Devon, England."
+        },
+        {
+          "id": "great-spotted-woodpecker-xc1093571",
+          "kind": "drumming",
+          "title": "XC1093571 - Great Spotted Woodpecker - Dendrocopos major.wav",
+          "url": "/media/sounds/great-spotted-woodpecker-xc1093571.ogg",
+          "downloadUrl": "https://xeno-canto.org/1093571/download",
+          "sourceUrl": "https://xeno-canto.org/1093571",
+          "recordist": "Gustav Haapalahti",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Drumming recording of Great Spotted Woodpecker (Dendrocopos major) from Xeno-canto."
         }
       ]
     },
@@ -1020,7 +1130,56 @@
           "identityNote": "Gull identity and subspecies: two European Herring Gulls of the subspecies Larus argentatus argenteus in Coumeenoole Bay, Ireland."
         }
       ],
-      "sounds": []
+      "sounds": [
+        {
+          "id": "herring-gull-xc1151376",
+          "kind": "call",
+          "title": "XC1151376 - European Herring Gull - Larus argentatus.mp3",
+          "url": "/media/sounds/herring-gull-xc1151376.ogg",
+          "downloadUrl": "https://xeno-canto.org/1151376/download",
+          "sourceUrl": "https://xeno-canto.org/1151376",
+          "recordist": "Olivier SWIFT",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call recording of European Herring Gull (Larus argentatus) from Xeno-canto."
+        },
+        {
+          "id": "herring-gull-xc1173241",
+          "kind": "song",
+          "title": "XC1173241 - European Herring Gull - Larus argentatus.wav",
+          "url": "/media/sounds/herring-gull-xc1173241.ogg",
+          "downloadUrl": "https://xeno-canto.org/1173241/download",
+          "sourceUrl": "https://xeno-canto.org/1173241",
+          "recordist": "François Guibert",
+          "license": "CC BY-NC-ND 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "description": "Song recording of European Herring Gull (Larus argentatus) from Xeno-canto."
+        },
+        {
+          "id": "herring-gull-xc984556",
+          "kind": "call",
+          "title": "XC984556 - European Herring Gull - Larus argentatus.wav",
+          "url": "/media/sounds/herring-gull-xc984556.ogg",
+          "downloadUrl": "https://xeno-canto.org/984556/download",
+          "sourceUrl": "https://xeno-canto.org/984556",
+          "recordist": "Stein Ø. Nilsen",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Alarm call, call, and flight call recording of European Herring Gull (Larus argentatus) from Xeno-canto."
+        },
+        {
+          "id": "herring-gull-xc896886",
+          "kind": "call",
+          "title": "XC896886 - European Herring Gull - Larus argentatus.mp3",
+          "url": "/media/sounds/herring-gull-xc896886.ogg",
+          "downloadUrl": "https://xeno-canto.org/896886/download",
+          "sourceUrl": "https://xeno-canto.org/896886",
+          "recordist": "Lars Edenius",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call recording of European Herring Gull (Larus argentatus) from Xeno-canto."
+        }
+      ]
     },
     {
       "id": "coot",
@@ -1057,7 +1216,56 @@
           "identityNote": "Source description identifies a Eurasian Coot (Fulica atra) in Kaliningrad."
         }
       ],
-      "sounds": []
+      "sounds": [
+        {
+          "id": "coot-xc1101112",
+          "kind": "call",
+          "title": "XC1101112 - Eurasian Coot - Fulica atra.wav",
+          "url": "/media/sounds/coot-xc1101112.ogg",
+          "downloadUrl": "https://xeno-canto.org/1101112/download",
+          "sourceUrl": "https://xeno-canto.org/1101112",
+          "recordist": "WINDELS Martin",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call recording of Eurasian Coot (Fulica atra) from Xeno-canto."
+        },
+        {
+          "id": "coot-xc1082828",
+          "kind": "call",
+          "title": "XC1082828 - Eurasian Coot - Fulica atra.mp3",
+          "url": "/media/sounds/coot-xc1082828.ogg",
+          "downloadUrl": "https://xeno-canto.org/1082828/download",
+          "sourceUrl": "https://xeno-canto.org/1082828",
+          "recordist": "Olivier SWIFT",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call recording of Eurasian Coot (Fulica atra) from Xeno-canto."
+        },
+        {
+          "id": "coot-xc1082830",
+          "kind": "call",
+          "title": "XC1082830 - Eurasian Coot - Fulica atra.mp3",
+          "url": "/media/sounds/coot-xc1082830.ogg",
+          "downloadUrl": "https://xeno-canto.org/1082830/download",
+          "sourceUrl": "https://xeno-canto.org/1082830",
+          "recordist": "Olivier SWIFT",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call recording of Eurasian Coot (Fulica atra) from Xeno-canto."
+        },
+        {
+          "id": "coot-xc809529",
+          "kind": "call",
+          "title": "XC809529 - Eurasian Coot - Fulica atra.mp3",
+          "url": "/media/sounds/coot-xc809529.ogg",
+          "downloadUrl": "https://xeno-canto.org/809529/download",
+          "sourceUrl": "https://xeno-canto.org/809529",
+          "recordist": "Jelle Scharringa",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call recording of Eurasian Coot (Fulica atra) from Xeno-canto."
+        }
+      ]
     },
     {
       "id": "parakeet",
@@ -1107,7 +1315,44 @@
           "identityNote": "Source description identifies a pair of Rose-ringed Parakeets (Psittacula krameri) beside their tree hole."
         }
       ],
-      "sounds": []
+      "sounds": [
+        {
+          "id": "parakeet-xc1169692",
+          "kind": "call",
+          "title": "XC1169692 - Rose-ringed Parakeet - Psittacula krameri.wav",
+          "url": "/media/sounds/parakeet-xc1169692.ogg",
+          "downloadUrl": "https://xeno-canto.org/1169692/download",
+          "sourceUrl": "https://xeno-canto.org/1169692",
+          "recordist": "David Darrell-Lambert",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call recording of Rose-ringed Parakeet (Psittacula krameri) from Xeno-canto."
+        },
+        {
+          "id": "parakeet-xc1142621",
+          "kind": "call",
+          "title": "XC1142621 - Rose-ringed Parakeet - Psittacula krameri.mp3",
+          "url": "/media/sounds/parakeet-xc1142621.ogg",
+          "downloadUrl": "https://xeno-canto.org/1142621/download",
+          "sourceUrl": "https://xeno-canto.org/1142621",
+          "recordist": "Susanne Kuijpers",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call recording of Rose-ringed Parakeet (Psittacula krameri) from Xeno-canto."
+        },
+        {
+          "id": "parakeet-xc1077685",
+          "kind": "call",
+          "title": "XC1077685 - Rose-ringed Parakeet - Psittacula krameri.mp3",
+          "url": "/media/sounds/parakeet-xc1077685.ogg",
+          "downloadUrl": "https://xeno-canto.org/1077685/download",
+          "sourceUrl": "https://xeno-canto.org/1077685",
+          "recordist": "Thierry THOMAS",
+          "license": "CC BY-NC-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "description": "Call and flight call recording of Rose-ringed Parakeet (Psittacula krameri) from Xeno-canto."
+        }
+      ]
     }
   ]
 }
