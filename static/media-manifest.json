@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "91c13ccda05aa4e5d28b8e9168453c778450dadaae70ab16ef97a10289316652",
+  "version": "8646d6d82ca535f14a4ae20079abdb35293511c5d36fbf0dad723f09c649d1f5",
   "totals": {
-    "assets": 73,
-    "photos": 35,
+    "assets": 78,
+    "photos": 40,
     "sounds": 38,
-    "bytes": 25108018
+    "bytes": 25722762
   },
   "assets": [
     {
@@ -64,6 +64,15 @@
     },
     {
       "kind": "photo",
+      "path": "media/photos/carrion-crow-3.webp",
+      "url": "/media/photos/carrion-crow-3.webp",
+      "versionedUrl": "/media/photos/carrion-crow-3.webp?v=a23ff8093394515eb82df7bbf95e479b376ffe8afd40993f5bb11a69ef6d18e0",
+      "bytes": 104484,
+      "sha256": "a23ff8093394515eb82df7bbf95e479b376ffe8afd40993f5bb11a69ef6d18e0",
+      "mime": "image/webp"
+    },
+    {
+      "kind": "photo",
       "path": "media/photos/collared-dove-1.webp",
       "url": "/media/photos/collared-dove-1.webp",
       "versionedUrl": "/media/photos/collared-dove-1.webp?v=fbe67801d96b8c32e28b4d04cfcb3a383b38934a0544decdbcf6564baee6997a",
@@ -105,6 +114,24 @@
       "versionedUrl": "/media/photos/great-spotted-woodpecker-1.webp?v=2434314e6313b07e65db404f1ec72154c23565e791ae9be022bdac46db753121",
       "bytes": 80126,
       "sha256": "2434314e6313b07e65db404f1ec72154c23565e791ae9be022bdac46db753121",
+      "mime": "image/webp"
+    },
+    {
+      "kind": "photo",
+      "path": "media/photos/great-spotted-woodpecker-2.webp",
+      "url": "/media/photos/great-spotted-woodpecker-2.webp",
+      "versionedUrl": "/media/photos/great-spotted-woodpecker-2.webp?v=3a4f98f131b96bd219fd944aaa511050a919560d28a4cd0fd2415360eb022b4b",
+      "bytes": 185686,
+      "sha256": "3a4f98f131b96bd219fd944aaa511050a919560d28a4cd0fd2415360eb022b4b",
+      "mime": "image/webp"
+    },
+    {
+      "kind": "photo",
+      "path": "media/photos/great-spotted-woodpecker-3.webp",
+      "url": "/media/photos/great-spotted-woodpecker-3.webp",
+      "versionedUrl": "/media/photos/great-spotted-woodpecker-3.webp?v=057179c8b2b5d1a4ecced837ed37672f441115950df91d4049bc973ea5facda4",
+      "bytes": 113280,
+      "sha256": "057179c8b2b5d1a4ecced837ed37672f441115950df91d4049bc973ea5facda4",
       "mime": "image/webp"
     },
     {
@@ -217,6 +244,15 @@
     },
     {
       "kind": "photo",
+      "path": "media/photos/jackdaw-4.webp",
+      "url": "/media/photos/jackdaw-4.webp",
+      "versionedUrl": "/media/photos/jackdaw-4.webp?v=4a92cbfc6adf216baa908cffe24b0bb600e6d297f328e14e1f0d93bf86f22e0c",
+      "bytes": 101668,
+      "sha256": "4a92cbfc6adf216baa908cffe24b0bb600e6d297f328e14e1f0d93bf86f22e0c",
+      "mime": "image/webp"
+    },
+    {
+      "kind": "photo",
       "path": "media/photos/magpie-1.webp",
       "url": "/media/photos/magpie-1.webp",
       "versionedUrl": "/media/photos/magpie-1.webp?v=780fb8672b2304ea7ef6c050bae657cb21ecb314bd2ddb579334d6ffb68307ca",
@@ -321,6 +357,15 @@
       "versionedUrl": "/media/photos/wood-pigeon-2.webp?v=74255fa943289201247603408a72d70800e0e4d881a4d58869e5be816d66576b",
       "bytes": 35576,
       "sha256": "74255fa943289201247603408a72d70800e0e4d881a4d58869e5be816d66576b",
+      "mime": "image/webp"
+    },
+    {
+      "kind": "photo",
+      "path": "media/photos/wood-pigeon-3.webp",
+      "url": "/media/photos/wood-pigeon-3.webp",
+      "versionedUrl": "/media/photos/wood-pigeon-3.webp?v=b729dd8d58d5c30a30733f9eca60e5def0dd2fdabb1f605cc2479f2b0710fe41",
+      "bytes": 109626,
+      "sha256": "b729dd8d58d5c30a30733f9eca60e5def0dd2fdabb1f605cc2479f2b0710fe41",
       "mime": "image/webp"
     },
     {

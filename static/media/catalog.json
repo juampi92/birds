@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-15",
   "birds": [
     {
       "id": "great-tit",
@@ -546,6 +546,19 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
           "dimensions": "960x720",
           "identityNote": "Source description identifies a Common Wood Pigeon perched on a fence in Cambridge, England."
+        },
+        {
+          "id": "wood-pigeon-vaxholm-2018",
+          "url": "/media/photos/wood-pigeon-3.webp",
+          "title": "Columba palumbus EM1B1397 (27445478998).jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Columba_palumbus_EM1B1397_%2827445478998%29.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Columba_palumbus_EM1B1397_(27445478998).jpg",
+          "creator": "Bengt Nyman from Vaxholm, Sweden",
+          "creatorUrl": "https://www.flickr.com/people/97469566@N00",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "dimensions": "3784x2838",
+          "identityNote": "Source description identifies a Common Wood Pigeon (Columba palumbus) photographed in Vaxholm, Sweden."
         }
       ],
       "sounds": []
@@ -601,6 +614,32 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
           "dimensions": "3872x2592",
           "identityNote": "Description identifies female Dendrocopos major (Great spotted woodpecker)."
+        },
+        {
+          "id": "great-spotted-woodpecker-london-feeding-chick",
+          "url": "/media/photos/great-spotted-woodpecker-2.webp",
+          "title": "Dendrocopos major -London, England -female feeding chick-8.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Dendrocopos_major_-London%2C_England_-female_feeding_chick-8.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dendrocopos_major_-London,_England_-female_feeding_chick-8.jpg",
+          "creator": "stuart Burns from Erith, England",
+          "creatorUrl": "https://www.flickr.com/people/41173345@N03",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "dimensions": "672x1008",
+          "identityNote": "Source description identifies a female Great Spotted Woodpecker (Dendrocopos major) feeding a chick in London, England."
+        },
+        {
+          "id": "great-spotted-woodpecker-ystad-2023",
+          "url": "/media/photos/great-spotted-woodpecker-3.webp",
+          "title": "Större hackspett - Great spotted woodpecker - (Dendrocopos major) - Ystad-2023.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/St%C3%B6rre_hackspett_-_Great_spotted_woodpecker_-_%28Dendrocopos_major%29_-_Ystad-2023.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Större_hackspett_-_Great_spotted_woodpecker_-_(Dendrocopos_major)_-_Ystad-2023.jpg",
+          "creator": "Foto: Jonn Leffmann",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Jonnmann",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "dimensions": "1057x1500",
+          "identityNote": "Source description identifies a young male Great Spotted Woodpecker (Dendrocopos major) foraging on a pine in Ystad, Sweden."
         }
       ],
       "sounds": [
@@ -757,6 +796,19 @@
           "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
           "dimensions": "5070x3380",
           "identityNote": "Source description identifies a Carrion Crow (Corvus corone) in Gennevilliers, France."
+        },
+        {
+          "id": "carrion-crow-southend-2009",
+          "url": "/media/photos/carrion-crow-3.webp",
+          "title": "Corvus corone -Southend-on-Sea -England-8.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Corvus_corone_-Southend-on-Sea_-England-8.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corvus_corone_-Southend-on-Sea_-England-8.jpg",
+          "creator": "jans canon",
+          "creatorUrl": "https://www.flickr.com/people/43158397@N02",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "dimensions": "2391x2025",
+          "identityNote": "Source description identifies a Carrion Crow (Corvus corone) perching in a tree in Southend-on-Sea, England."
         }
       ],
       "sounds": [
@@ -853,6 +905,19 @@
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
           "dimensions": "3611x2708",
           "identityNote": "Source description identifies a Western Jackdaw (Corvus monedula) near Vaxholm, Sweden."
+        },
+        {
+          "id": "jackdaw-munkedal-2009",
+          "url": "/media/photos/jackdaw-4.webp",
+          "title": "Coloeus monedula -Munkedal, Vastra Gotaland, Sweden-8.jpg",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Coloeus_monedula_-Munkedal%2C_Vastra_Gotaland%2C_Sweden-8.jpg",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coloeus_monedula_-Munkedal,_Vastra_Gotaland,_Sweden-8.jpg",
+          "creator": "Karl Jonsson from Göteborg, Sweden",
+          "creatorUrl": "https://www.flickr.com/people/karljonsson/",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "dimensions": "2272x1704",
+          "identityNote": "Source description identifies a Jackdaw (Coloeus monedula) in Munkedal, Västra Götaland, Sweden."
         }
       ],
       "sounds": [

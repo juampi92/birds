@@ -46,7 +46,7 @@ npm run preview        # Preview the production build locally
 
 ## Media workflow
 
-Reviewed media is self-hosted and committed so the deployed PWA can work offline and builds remain deterministic. Before changing an asset, verify its source page, creator or recordist, and licence. Keep that information in the catalogue and preserve the source decision in `static/media/source-review.json` when applicable. Commit the prepared binary together with its catalogue and attribution changes; media retain their individual licences and are not covered by the application’s MIT licence.
+Reviewed media is self-hosted and committed so the deployed PWA can work offline and builds remain deterministic. Before changing an asset, verify its source page, creator or recordist, and licence. Keep that information in the catalogue. Commit the prepared binary together with its catalogue and attribution changes; media retain their individual licences and are not covered by the application’s MIT licence.
 
 To add or refresh reviewed downloads, validate the catalogue, and regenerate the manifest:
 
