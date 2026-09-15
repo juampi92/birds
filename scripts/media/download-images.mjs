@@ -78,8 +78,6 @@ async function prepareWebPhoto(source, destination, imageId) {
       '-frames:v',
       '1',
       '-an',
-      '-map_metadata',
-      '-1',
       '-c:v',
       'libwebp',
       '-preset',

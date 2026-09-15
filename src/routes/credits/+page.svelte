@@ -34,9 +34,9 @@
       source, contributor, and licence.
     </p>
     <p class="credits-intro">
-      Local photo copies are center-cropped, resized to 768 × 768, converted to WebP, and stripped
-      of source metadata. Audio copies are converted to Ogg Opus; eligible recordings may be capped
-      at 60 seconds, while no-derivatives recordings retain their full duration.
+      Local photo copies are center-cropped, resized to 768 × 768, and converted to WebP. Audio
+      copies are converted to Ogg Opus; eligible recordings may be capped at 60 seconds, while
+      no-derivatives recordings retain their full duration.
     </p>
     <p class="credits-count">
       {mediaManifest.totals.photos} images · {mediaManifest.totals.sounds} recordings · catalogue updated
